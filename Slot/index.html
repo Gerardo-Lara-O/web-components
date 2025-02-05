@@ -11,7 +11,10 @@
 <body>
     <h2 class="title">Soy un titulo</h2>
     
-    <my-element>Soy texto fuera del componente</my-element>
+    <my-element>
+        <span slot="title">Soy el titulo</span>
+        <span slot="parrafo">Soy el texto del parrafo</span>
+    </my-element>
     <script type="module" src="./my-element.js"></script>
 </body>
 
